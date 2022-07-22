@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,500;1,400&family=Titillium+Web:ital,wght@1,300&display=swap');
+/*=========== common style ======== */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body .full-container {
+    max-width: 1440px;
+    margin: 0 auto;
+   color: #787885;
+   border: 1px solid red;
+    
+}
+/* =================
+Navigation bar style 
+=====================*/
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.navigation-bar .logo h3{
+   font-size: 24px;
+   font-weight:700;
+   color: #3A3A3A;
+   margin: 87px 0px 0px 120px;
+}
+.navigation-bar .menu ul{
+    display: flex;
+    margin-right: 120px;
+    margin-top: 95px;
+}
+.navigation-bar .menu ul li{
+    margin-right: 34px;
+    list-style: none;
+}
+.navigation-bar .menu ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*===================================
+ Strat your Journey as Influencer
+=================================== */
+
+
+.start-journey {
+    display: flex;
+   
+    margin-bottom: 70px;
+}
+.heading{
+    margin-left: 120px;
+}
+.heading h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.heading p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.heading a{
+    text-decoration: none;
+    color:#fff ;
+    background-color: #E02C6D;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 41px;
+    letter-spacing: 1.1px;
+}
+.camera-img{
+    width: 475px;
+    position: relative;
+    margin-right: 132px;
+}
+.camera-img .main-camera{
+    position: absolute;
+    top: 30px;
+    left: 2px;
+}
+/*=====================
+       brands section
+======================= */
+.seven-brand{
+    /* border: 1px solid red; */
+}
+hr{
+    border: 1px solid linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    margin: 44px 165px;
+}
+.seven-brand .brands{
+    margin: 0 227px;
+}
+.seven-brand .brands .brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*======================
+ Popular-Collection
+====================== */
+
+.Popular-Collection h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-top: 56px;
+}
+.goods{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.goods .details{
+    /* border: 1px solid rebeccapurple; */
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 30px auto;
+
+}
+.goods .details .details-img{
+    width: 300px;
+    height: 256px;
+    margin: 0px auto;
+    padding:17px 0px ;
+}
+.goods .details h2{
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0 auto 6px 14px;
+}
+.goods .details h3{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 auto auto 14px;
+}
+.goods .details p{
+    color: #787885;
+    font-size: 14px;
+    margin: auto auto 17px 14px;
+
+}
+.goods .details p span{
+    color: #FB8200;
+
+}
