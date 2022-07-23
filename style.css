@@ -113,6 +113,9 @@ hr{
     color: #3A3A3A;
     margin-top: 56px;
 }
+.Popular-Collection p{
+    color: rebeccapurple;
+}
 .goods{
     display: grid;
     grid-template-columns: repeat(3,1fr);
