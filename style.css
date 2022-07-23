@@ -114,7 +114,9 @@ hr{
     margin-top: 56px;
 }
 .Popular-Collection p{
-    color: rebeccapurple;
+    color: #E02C6D;
+    font-size: 24px;
+    float: right;
 }
 .goods{
     display: grid;
@@ -153,5 +155,6 @@ hr{
 }
 .goods .details p span{
     color: #FB8200;
+
 
 }
