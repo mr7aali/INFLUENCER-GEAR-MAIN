@@ -3,13 +3,15 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+  
     
 }
 
 body .full-container {
     max-width: 1440px;
     margin: 0 auto;
-   color: #787885;
+    color: #787885;
+    
  
     
 }
@@ -65,6 +67,7 @@ Navigation bar style
 .heading p{
     font-weight: 600;
     font-size: 16px;
+    padding-bottom: 25px;
 }
 .heading a{
     text-decoration: none;
@@ -218,6 +221,7 @@ Featured products at one place
 footer{
     background-color: #0A0826;
     margin-top: 100px;
+    width: 100vw;
 }
  footer div{
 
