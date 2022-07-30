@@ -90,6 +90,9 @@
     .goods .details{
         margin: 15px auto ;
     }
+    #tab-view{
+        grid-column: 1/3;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
     .Feature{
