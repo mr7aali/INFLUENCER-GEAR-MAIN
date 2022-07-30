@@ -98,17 +98,17 @@ hr{
  ===================Tab View  start =============================
 ==================================================================== */
 
-@media only screen and (min-width:768px) and (max-width:991px) {
+@media only screen and (min-width:768px) and (max-width:1010px) {
     .goods{
         grid-template-columns: 1fr 1fr;
     } 
-   
-    #tab-view{
-        /* i have to work on it later */
+    .Feature .feature-blg{
+        display: none;
     }
+   
     .Feature .feature-img{
         width: 95vw;
-        height: 100vh;
+    
       
         margin: 0 auto;
         /* display: none; */
@@ -121,8 +121,11 @@ hr{
 /* ===================Tab View  End============================= */
 
 /* ==========================================================
-===========large device media query =========================
+===========large device media query =========================*/
+
+
 @media only screen and (min-width:992px) and (max-width:1280px){
+
 
     .Feature{
         flex-direction: column-reverse;
@@ -131,20 +134,10 @@ hr{
     }
     
     .Feature .feature-blg{
-        margin: 20px;
+        margin: 20px auto;
         text-align: center;
+        width: 78%;
     }
-    .Feature .feature-img{
-       margin: 0 auto;
-       width: 99%;
-       height: 100%;
-       border: 1px solid rebeccapurple;
-       
-    }
-    .Feature .feature-img img{      
-        width: 100%;
-        height: 100%;
-   }
+    
 
 }
-============================================================*/
