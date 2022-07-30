@@ -1,0 +1,150 @@
+@media only screen and (max-width:991px) {
+/*========================
+ .navigation-bar start 
+ =================== */
+.navigation-bar .menu ul{
+    display: none;
+}
+.navigation-bar .logo {
+    margin: 0 auto;
+}
+.navigation-bar .logo h3{
+    margin: 50px ;
+}
+
+/*========================
+ .navigation-bar End
+ =================== */
+/*========================
+/* start journy Start 
+===================   */
+
+.start-journey{
+    flex-direction: column-reverse;
+}
+.camera-img{
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /* width: 400px; */
+    width: 70vw;
+}
+.camera-img >img{
+    /* border: 1px solid blue; */
+    width: 70vw;
+}
+.camera-img .main-camera img{
+   /* border: 1px solid red; */
+   width: 60vw;
+
+}
+.heading{
+    margin: 0 auto;
+    text-align: center;
+}
+/*========================
+/* start journy End
+===================   */
+/*========================
+/*   brands section Start
+===================   */
+.seven-brand .brands{
+    margin: auto;
+}
+.seven-brand .brands .brand{
+  margin: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.seven-brand .brands .brand img{
+    margin:10px 30px;
+}
+hr{
+    margin:0 3%;
+}
+
+/*========================
+/*   brands section  End
+===================   */
+/* ================Popular Section Start================= */
+.goods{
+    grid-template-columns: 1fr;
+}
+/* ================Popular Section End================= */
+
+
+
+/* ================.Feature Start================= */
+.Feature{
+    flex-direction: column-reverse;
+    margin:150px auto 0 auto;
+    width: auto;
+}
+
+.Feature .feature-blg{
+    margin: 20px;
+    text-align: center;
+}
+.Feature .feature-img{
+   
+   
+    margin: 0 auto;
+    /* display: none; */
+}
+/* ================.Feature End================= */
+}
+
+/*=================================================================
+ ===================Tab View  start =============================
+==================================================================== */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .goods{
+        grid-template-columns: 1fr 1fr;
+    } 
+   
+    #tab-view{
+        /* i have to work on it later */
+    }
+    .Feature .feature-img{
+        width: 95vw;
+        height: 100vh;
+      
+        margin: 0 auto;
+        /* display: none; */
+    }
+    .Feature .feature-img img{      
+         width: 100%;
+         height: 100%;
+    }
+}
+/* ===================Tab View  End============================= */
+
+/* ==========================================================
+===========large device media query =========================
+@media only screen and (min-width:992px) and (max-width:1280px){
+
+    .Feature{
+        flex-direction: column-reverse;
+        margin:auto auto 0 auto;
+        
+    }
+    
+    .Feature .feature-blg{
+        margin: 20px;
+        text-align: center;
+    }
+    .Feature .feature-img{
+       margin: 0 auto;
+       width: 99%;
+       height: 100%;
+       border: 1px solid rebeccapurple;
+       
+    }
+    .Feature .feature-img img{      
+        width: 100%;
+        height: 100%;
+   }
+
+}
+============================================================*/

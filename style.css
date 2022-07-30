@@ -2,10 +2,10 @@
 /*=========== common style ======== */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
-  
     
+     margin: 0;
 }
+
 
 body .full-container {
     max-width: 1440px;
@@ -221,7 +221,7 @@ Featured products at one place
 footer{
     background-color: #0A0826;
     margin-top: 100px;
-    width: 100vw;
+    width: 100%;
 }
  footer div{
 
