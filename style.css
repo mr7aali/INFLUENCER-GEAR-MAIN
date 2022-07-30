@@ -10,11 +10,11 @@ body{
 body .full-container {
     max-width: 1440px;
     margin: 0 auto;
-    color: #787885;
-    
- 
-    
+    color: #787885;  
 }
+
+
+
 /* =================
 Navigation bar style 
 =====================*/
@@ -179,8 +179,7 @@ Featured products at one place
  ==========================*/
  .Feature {
     margin: 150px 165px 0px 165px;
-    display: flex;
-    
+    display: flex;   
     width: 1110px;
  }
  .Feature .feature-img{
